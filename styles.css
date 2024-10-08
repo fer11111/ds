@@ -10,14 +10,14 @@ header {
 }
 
 .server-icon {
-    width: 70px; /* Adjust the size as needed */
+    width: 100px; /* Adjust the size as needed */
 }
 
 .discord-btn, .nuker-btn {
     display: inline-block;
     margin: 10px;
-    padding: 6px 12px; /* Smaller padding */
-    font-size: 12px; /* Smaller font size */
+    padding: 10px 20px;
+    font-size: 16px;
     color: white;
     background-color: #7289da; /* Discord color */
     border: none;
@@ -33,11 +33,3 @@ header {
 .nuker-btn {
     background-color: red; /* Nuke button color */
 }
-
-.nuker-icon {
-    width: 16px; /* Smaller icon size */
-    height: auto; /* Maintain aspect ratio */
-    vertical-align: middle; /* Align icon with text */
-    margin-right: 5px; /* Space between icon and text */
-}
-
