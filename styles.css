@@ -16,8 +16,8 @@ header {
 .discord-btn, .nuker-btn {
     display: inline-block;
     margin: 5px;
-    padding: 5px 5px;
-    font-size: 16px;
+    padding: 4px 8px; /* Smaller padding */
+    font-size: 14px; /* Slightly smaller font size */
     color: white;
     background-color: #7289da; /* Discord color */
     border: none;
@@ -32,4 +32,11 @@ header {
 
 .nuker-btn {
     background-color: red; /* Nuke button color */
+}
+
+.nuker-icon {
+    width: 20px; /* Smaller icon size */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align icon with text */
+    margin-right: 5px; /* Space between icon and text */
 }
