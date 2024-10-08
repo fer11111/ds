@@ -16,8 +16,8 @@ header {
 .discord-btn, .nuker-btn {
     display: inline-block;
     margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 8px 16px; /* Reduced padding */
+    font-size: 14px; /* Smaller font size */
     color: white;
     background-color: #7289da; /* Discord color */
     border: none;
