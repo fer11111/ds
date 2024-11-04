@@ -1,33 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DSCommunity</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="https://cdn.discordapp.com/attachments/1289762501214474330/1292599890085679274/IMG_0494.gif" type="image/gif">
+    <title>Únete a Mi Servidor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        #profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        #description {
+            margin: 10px 0;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        button {
+            background-color: #7289da;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        #banner {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img src="https://s1.ezgif.com/tmp/ezgif-1-dd588a0c5f.gif" alt="DSCommunity Icon" class="server-icon">
-        <h1>Welcome to DSCommunity</h1>
-        <p>Your hub for everything Discord-related.</p>
-    </header>
 
-    <main>
-        <section class="cta">
-            <h2>Join Us on Discord</h2>
-            <p>Be part of the DSCommunity and get access to exclusive content and discussions!</p>
-            <a href="https://discord.gg/qjnTcWptXY" class="discord-btn">Join Discord</a>
-            <a href="https://discord.com/oauth2/authorize?client_id=1292266785651032136&permissions=8&integration_type=0&scope=bot" class="nuker-btn">
-                <img src="https://cdn3.iconfinder.com/data/icons/video-game-items-concepts/128/grim-reaper-death-simple-1024.png" alt="Nuker Bot" class="nuker-icon"> nuker b*t
-            </a>
-        </section>
-    </main>
+    <div id="profile">
+        <img src="https://cdn.discordapp.com/avatars/1289692104804667486/1a437d85aae1e2c8c5f3991cb37b53a5.png?size=2048" alt="Perfil">
+        <div id="description">¡Únete a mi servidor de scripts, bro!</div>
+        <img id="banner" src="https://cdn.discordapp.com/banners/1289692104804667486/b1b131f14854b681821b66a66029aecc.png?size=2048" alt="Banner">
+    </div>
 
-    <footer>
-        <p>&copy; 2024 DSCommunity. All Rights Reserved.</p>
-    </footer>
+    <div id="buttons">
+        <a href="https://discord.gg/6d4f7sx4qZ" target="_blank">
+            <button>
+                <img src="https://th.bing.com/th/id/R.11991d9b6e676d00ecfcf8c537c8667b?rik=CIiipjJChLiomw&pid=ImgRaw&r=0" alt="Discord"> Discord
+            </button>
+        </a>
+        <a href="https://github.com/" target="_blank">
+            <button>
+                <img src="https://cdn.discordapp.com/attachments/1255692212717752513/1295738674989760582/github.png?ex=6729736d&is=672821ed&hm=106a725a81a0028b164a17aa1013e3b9fbfbc52b92545244178f0759590a146a" alt="GitHub"> GitHub
+            </button>
+        </a>
+    </div>
+
+    <audio autoplay>
+        <source src="tu_audio.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio HTML5.
+    </audio>
+
 </body>
 </html>
